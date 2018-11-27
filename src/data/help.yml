@@ -1,0 +1,13 @@
+variations:
+  starved:
+    title: Starved
+    lines:
+      - |
+        The Starved variation reduces the probability that players will be given skill pickups,
+        unless one is needed to proceed.This tends to create more linear seeds, where each skill
+        gives access to the area or areas where the next skill or important item will be found.
+      - |
+        Note that the Balanced fill algorithm can sometimes interfere with Starved.
+      - |
+        Recommended for everyone at least once, and for players who enjoy more linear pathing
+        or constrained situations.

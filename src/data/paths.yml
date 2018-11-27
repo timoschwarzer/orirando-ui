@@ -1,0 +1,60 @@
+all:
+  - casual-core
+  - casual-dboost
+  - standard-core
+  - standard-dboost
+  - standard-lure
+  - standard-abilities
+  - expert-core
+  - expert-dboost
+  - expert-lure
+  - expert-abilities
+  - dbash
+  - master-core
+  - master-dboost
+  - master-lure
+  - master-abilities
+  - gjump
+  - glitched
+  - timed-level
+  - insane
+
+optional:
+  - casual-dboost
+  - standard-core
+  - standard-dboost
+  - standard-lure
+  - standard-abilities
+  - expert-core
+  - expert-dboost
+  - expert-lure
+  - expert-abilities
+  - dbash
+  - master-core
+  - master-dboost
+  - master-lure
+  - master-abilities
+  - gjump
+  - glitched
+  - timed-level
+  - insane
+
+disabledFor:
+  Hard:
+    - standard-dboost
+    - expert-dboost
+    - master-dboost
+  0XP:
+    - glitched
+    - standard-abilities
+    - expert-abilities
+    - master-abilities
+    - master-dboost
+    - timed-level
+    - insane
+  OHKO:
+    - standard-dboost
+    - expert-dboost
+    - master-dboost
+    - glitched
+    - master-lure
